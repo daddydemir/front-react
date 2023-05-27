@@ -1,0 +1,14 @@
+div.prodItem {
+    border-radius: 12px;
+    background-color: antiquewhite;
+    padding: 10px;
+    color: #121212;
+}
+
+p.right {
+    float: right;
+}
+
+div.tab{
+    justify-content: center;
+}

@@ -9,15 +9,8 @@ import { Footer } from "./Footer";
 
 function Main(){
     return (
-        <section>
-            <NavBar />
-            <Banner />
-            <Skills />
-            <Prods />
-            <Projects />
-            <Contact />
-            <Footer />
-        </section>
+       <Prods />
+        
     )
 }
 
