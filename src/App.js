@@ -6,7 +6,9 @@ import { BrowserRouter, Routes } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import { Prods } from './pages/prods/Prods';
 import { Contact } from './components/Contact';
+
 import Products from './pages/prods/Product';
+import {AdminHome} from "./pages/admin/AdminHome";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path='prods' element={<Prods />} />
         <Route index element={<Products />} />
         <Route path='contact' element={<Contact />} />
+        <Route path='admin' element={<AdminHome />} />
       </Routes>
     </BrowserRouter>
   );

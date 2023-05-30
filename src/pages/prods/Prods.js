@@ -18,11 +18,19 @@ export const Prods = () => {
                     </Col>
 
                     <Col md={4}>
-                        <ProdItem/>
+                        <ProdItem
+                            title='VPN-2'
+                            price='120'
+                            description='açıklama kısmı'
+                        />
                     </Col>
 
                     <Col md={4}>
-                        <ProdItem/>
+                        <ProdItem
+                            title='VPN-3'
+                            price='120'
+                            description='açıklama kısmı'
+                        />
                     </Col>
                 </Row>
             </Container>

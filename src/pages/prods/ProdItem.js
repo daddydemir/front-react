@@ -4,22 +4,27 @@ import {Col, Row} from "react-bootstrap";
 export const ProdItem = (props) => {
     return (
         <div className="prodItem" >
-            <h5> {props.title} </h5>
+            <div className='d-flex justify-content-between'>
+                <h5> {props.title} </h5>
+                <div>
+                    <span> ACTIVE </span>
+                </div>
+            </div>
             <hr />
             <p> {props.description}</p>
-            <p className="right"> {props.price}TL </p>
+            <p className="right"> {props.price} ₺ </p>
             <br />
-            <Row>
-                <Col md={4} className='tab'>
+            <div className='d-flex justify-content-between'>
+                <div>
                     <b> 2 pcs </b>
-                </Col>
-                <Col md={4}>
-                    <b> {props.price} TL </b>
-                </Col>
-                <Col md={4}>
+                </div>
+                <div>
+                    <b> {props.price} ₺ </b>
+                </div>
+                <div>
                     <b> info </b>
-                </Col>
-            </Row>
+                </div>
+            </div>
         </div>
     );
 }
