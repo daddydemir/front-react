@@ -1,0 +1,23 @@
+div.leftPanelBody {
+
+    margin: 100px 0 0 100px;
+    width: 300px;
+    height: 400px;
+    background-color: #F2F3F4;
+    border-radius: 15px;
+
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+    padding-right: 50px;
+    padding-top: 20px;
+    color: black;
+}
+
+div.orta {
+    position: marker;
+    margin: auto;
+}
