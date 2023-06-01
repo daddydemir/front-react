@@ -21,3 +21,75 @@ div.orta {
     position: marker;
     margin: auto;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.advertAdd {
+    margin-top: 80px;
+    padding: 10px;
+    width: 100%;
+    /*background-image: linear-gradient(to bottom right,#ffc8c8 , #9bf8f4); */
+    background-image: linear-gradient(to bottom right, #E5E4E2, #2A3439);
+    border-radius: 15px;
+}
+
+.header {
+    color: black;
+}
+
+.form-style form input, .form-style form textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: #000;
+    margin: 0 0 8px 0;
+    padding: 18px 26px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+}
+
+form {
+    padding: 10px;
+}
+
+.form-style form button {
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    padding: 14px 48px;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 0;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.form-style form button span {
+    z-index: 1;
+    position: relative;
+}
+
+.form-style form button:hover {
+    color: #fff;
+}
+
+.form-style form button::before {
+    content: "";
+    background: #121212;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.form-style form button:hover::before {
+    width: 100%;
+}

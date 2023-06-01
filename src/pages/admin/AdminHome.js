@@ -18,7 +18,7 @@ export const AdminHome = () => {
                         setUpData(data)
                     }}/>
                 </Col>
-                <Col md={4}>
+                <Col md={7}>
                     {upData === 'Acc' ? <AccountManagement/> : ''}
                     {upData === 'Prod' ? <ProdManagement/> : ''}
                     {upData === 'Cust' ? <CustomerManagement/> : ''}
