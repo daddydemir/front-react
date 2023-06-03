@@ -8,6 +8,8 @@ div.leftPanelBody {
 
     display: flex;
 
+    background-image: linear-gradient(to bottom right ,#e9b7ce , #d3f3f1);
+
 }
 
 li {
@@ -92,4 +94,21 @@ form {
 
 .form-style form button:hover::before {
     width: 100%;
+}
+
+.admin-default {
+
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom right, #ff930f, #fff95b);
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.pp-image {
+    width: 25%;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+::placeholder {
+    color: #FFFFFF;
 }
