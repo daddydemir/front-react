@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 
 export const LeftPanel = (props) => {
 
-    const [data, setData] = useState('null');
+    const [data, setData] = useState('Prod');
 
     useEffect(() => {
         props.sendData(data);

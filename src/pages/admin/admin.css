@@ -59,6 +59,20 @@ form {
     padding: 10px;
 }
 
+input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: #000;
+    margin: 0 0 8px 0;
+    padding: 18px 26px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+}
+
 .form-style form button {
     font-weight: 700;
     color: #000;
@@ -97,7 +111,6 @@ form {
 }
 
 .admin-default {
-
     border-radius: 12px;
     background-image: linear-gradient(to bottom right, #ff930f, #fff95b);
     padding: 10px;
@@ -112,3 +125,48 @@ form {
 ::placeholder {
     color: #FFFFFF;
 }
+
+.admin-customer {
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom right, #432371, #faae7b);
+    padding: 4px;
+}
+
+.customer-image{
+    border-radius: 50%;
+    width: 250px;
+    margin-left: 15%;
+}
+
+.customer-default {
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom right, #ff930f, #fff95b);
+    padding: 20px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
